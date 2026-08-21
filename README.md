@@ -27,8 +27,6 @@ Sistem iki bağımsız parçadan oluşur:
 2. **Tracker** — dedektörün bulduğu kutuları kare kare birbirine bağlayıp
    kimlik atar ("3. karedeki kutu ile 4. karedeki kutu aynı oyuncu").
 
-Bu ayrım sayesinde dedektör değiştirilebilir (RT-DETR yerine YOLO), tracker
-değiştirilebilir (ByteTrack yerine BoT-SORT), ikisi birbirinden bağımsız çalışır.
 
 ### RT-DETR neden seçildi, YOLO'dan farkı ne?
 
