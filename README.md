@@ -23,7 +23,7 @@ takibi" gerektiren senaryolar için temel bir referans mimari sunar.
 Sistem iki bağımsız parçadan oluşur:
 
 1. **Dedektör (RT-DETR)** — her karede "nesne nerede" sorusuna cevap verir,
-   ama karadan kareye hafızası yoktur.
+   ama kareden kareye hafızası yoktur.
 2. **Tracker** — dedektörün bulduğu kutuları kare kare birbirine bağlayıp
    kimlik atar ("3. karedeki kutu ile 4. karedeki kutu aynı oyuncu").
 
