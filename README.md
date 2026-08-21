@@ -1,5 +1,8 @@
 # RT-DETR + Trackers: SportsMOT Üzerinde Çoklu Nesne Takibi
 
+![Tracking önizleme](assets/tracking_preview.gif)
+
+
 Bu proje, [roboflow/trackers](https://github.com/roboflow/trackers) kütüphanesindeki
 beş farklı takip (tracking) algoritmasının, pretrained **RT-DETR** dedektörüyle
 birlikte **SportsMOT** veri seti üzerindeki performansını karşılaştırır.
@@ -78,6 +81,11 @@ veri seti. Bu projede `val` bölümünden `v_00HRwkvvjtQ_c001` sekansı kullanı
 Bu sekansta **ByteTrack** üç metrikte de en iyi sonucu verdi — özellikle
 IDF1'deki üstünlüğü, oyuncu kimliklerinin sahne boyunca en az kesintiyle
 korunduğunu gösteriyor.
+
+## Karşılaştırma grafiği
+
+![Tracker karşılaştırması](assets/tracker_comparison.png)
+
 
 ## Kurulum
 
